@@ -1,0 +1,187 @@
+.root{
+    color: rgb(255, 89, 0);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 750px;
+    background-image: url(./images/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav .logo h5:hover{
+    color: rgb(255, 89, 0);
+}
+nav ul li a:hover{
+    color: rgb(255, 89, 0);
+}
+.line{
+    margin-left: 47%;
+    margin-top: 20px;
+    width: 70px;
+    border-bottom: 3px solid rgb(255, 89, 0);
+    border-radius: 20px;
+}
+.logo h5{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 700px;
+
+}
+.menu li{
+    margin: 30px;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.heading h1{
+    color: white;
+    font-weight: bolder;
+    text-shadow: -3px 2px 3px rgba(186, 63, 2, 0.711);
+}
+.heading h5{
+   color: white;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.heading button{
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.second{
+    background-color: rgb(255, 89, 0);
+    width: 100%;
+    height: 400px;
+}
+.second h3{
+    color: white;
+    padding-top: 100px;
+    font-weight: bolder;
+    text-shadow: -2px 2px 3px rgba(0, 0, 0, 0.711);
+}
+.second p{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.line2{
+    margin-left: 48%;
+    margin-top: 20px;
+    width: 70px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.second button{
+    background-color: white;
+    color: rgb(255, 85, 0);
+    border-radius: 50px;
+    font-weight: bold;
+}
+.third{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.third .row{
+    margin-top: 50px;
+}
+.third h3{
+    font-weight: bolder;
+    text-shadow: -3px 2px 2px rgba(114, 114, 114, 0.51);
+}
+.third .row h5{
+    font-weight: bolder;
+}
+.gallery{
+    overflow: hidden;
+    position: relative;
+}
+.gallery img{
+    height: 300px;
+    position: relative;
+}
+
+.fourth{
+    background-color: rgb(1, 1, 17);
+    width: 100%;
+    height: 400px;
+}
+.fourth h3{
+    color: white;
+    padding-top: 100px;
+    font-weight: bolder;
+    text-shadow: -2px 2px 3px rgba(230, 59, 16, 0.711);
+}
+.fourth p{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.fourth button{
+    background-color: white;
+    color: rgb(1, 1, 17);
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.final{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.final h3{
+    font-weight: bolder;
+    text-shadow: -3px 2px 2px rgba(114, 114, 114, 0.51);
+}
+.final p{
+    color: rgb(52, 52, 52);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+.final .form{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.final .form input{
+    margin-bottom: 30px;
+}
+.final .form button{
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 30px;
+}
